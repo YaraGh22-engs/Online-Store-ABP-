@@ -1,0 +1,85 @@
+{
+  "template": "app",
+  "imports": {
+    "Volo.Abp.Account": {
+      "version": "8.3.0",
+      "isInstalled": true
+    },
+    "Volo.Abp.OpenIddict": {
+      "version": "8.3.0",
+      "isInstalled": true
+    },
+    "Volo.Abp.Identity": {
+      "version": "8.3.0",
+      "isInstalled": true
+    },
+    "Volo.Abp.TenantManagement": {
+      "version": "8.3.0",
+      "isInstalled": true
+    }
+  },
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {}
+    }
+  },
+  "packages": {
+    "AbpCourse.Demo.Application": {
+      "path": "src/AbpCourse.Demo.Application/AbpCourse.Demo.Application.abppkg",
+      "folder": "src"
+    },
+    "AbpCourse.Demo.Application.Tests": {
+      "path": "test/AbpCourse.Demo.Application.Tests/AbpCourse.Demo.Application.Tests.abppkg",
+      "folder": "test"
+    },
+    "AbpCourse.Demo.Domain.Shared": {
+      "path": "src/AbpCourse.Demo.Domain.Shared/AbpCourse.Demo.Domain.Shared.abppkg",
+      "folder": "src"
+    },
+    "AbpCourse.Demo.Application.Contracts": {
+      "path": "src/AbpCourse.Demo.Application.Contracts/AbpCourse.Demo.Application.Contracts.abppkg",
+      "folder": "src"
+    },
+    "AbpCourse.Demo.HttpApi": {
+      "path": "src/AbpCourse.Demo.HttpApi/AbpCourse.Demo.HttpApi.abppkg",
+      "folder": "src"
+    },
+    "AbpCourse.Demo.HttpApi.Client": {
+      "path": "src/AbpCourse.Demo.HttpApi.Client/AbpCourse.Demo.HttpApi.Client.abppkg",
+      "folder": "src"
+    },
+    "AbpCourse.Demo.EntityFrameworkCore.Tests": {
+      "path": "test/AbpCourse.Demo.EntityFrameworkCore.Tests/AbpCourse.Demo.EntityFrameworkCore.Tests.abppkg",
+      "folder": "test"
+    },
+    "AbpCourse.Demo.EntityFrameworkCore": {
+      "path": "src/AbpCourse.Demo.EntityFrameworkCore/AbpCourse.Demo.EntityFrameworkCore.abppkg",
+      "folder": "src"
+    },
+    "AbpCourse.Demo.TestBase": {
+      "path": "test/AbpCourse.Demo.TestBase/AbpCourse.Demo.TestBase.abppkg",
+      "folder": "test"
+    },
+    "AbpCourse.Demo.Domain.Tests": {
+      "path": "test/AbpCourse.Demo.Domain.Tests/AbpCourse.Demo.Domain.Tests.abppkg",
+      "folder": "test"
+    },
+    "AbpCourse.Demo.HttpApi.Client.ConsoleTestApp": {
+      "path": "test/AbpCourse.Demo.HttpApi.Client.ConsoleTestApp/AbpCourse.Demo.HttpApi.Client.ConsoleTestApp.abppkg",
+      "folder": "test"
+    },
+    "AbpCourse.Demo.DbMigrator": {
+      "path": "src/AbpCourse.Demo.DbMigrator/AbpCourse.Demo.DbMigrator.abppkg",
+      "folder": "src"
+    },
+    "AbpCourse.Demo.HttpApi.Host": {
+      "path": "src/AbpCourse.Demo.HttpApi.Host/AbpCourse.Demo.HttpApi.Host.abppkg",
+      "folder": "src"
+    },
+    "AbpCourse.Demo.Domain": {
+      "path": "src/AbpCourse.Demo.Domain/AbpCourse.Demo.Domain.abppkg",
+      "folder": "src"
+    }
+  }
+}

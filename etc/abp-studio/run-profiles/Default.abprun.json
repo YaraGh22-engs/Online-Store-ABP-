@@ -1,0 +1,17 @@
+﻿{
+  "applications": {
+    "AbpCourse.Demo.HttpApi.Host": {
+      "type": "dotnet-project",
+      "launchUrl": "https://localhost:44390",
+      "path": "../../../src/AbpCourse.Demo.HttpApi.Host/AbpCourse.Demo.HttpApi.Host.csproj",
+      "kubernetesService": ".*-httpapihost$"  
+    },
+    "AbpCourse.Demo.Angular": {
+      "type": "cli",
+      "workingDirectory": "../../../angular",
+      "startCommand": "./start.ps1",
+      "launchUrl": "http://localhost:4200",
+      "kubernetesService": ".*-angular$"        
+    }
+  }
+}
