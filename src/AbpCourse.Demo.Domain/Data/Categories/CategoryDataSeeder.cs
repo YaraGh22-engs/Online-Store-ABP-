@@ -20,6 +20,7 @@ namespace AbpCourse.Demo.Data.Categories
         // 2- seeding data
         public async Task SeedAsync(DataSeedContext context)
         {
+            //check if there is data in database so that not doublecate the values if we run DbMigrator twice
             if (!await categoriesRepository.AnyAsync())
             {
                 // create list of cat
